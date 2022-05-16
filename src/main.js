@@ -1,6 +1,5 @@
 import marquee from 'https://cdn.jsdelivr.net/npm/vanilla-marquee/dist/vanilla-marquee.js';
 
-// new marquee(document.getElementById('marquee'));
 const myScroller = new marquee(document.getElementById('marquee'), {
   speed: 500,
   gap: 50,
@@ -25,12 +24,3 @@ const thirdScroller = new marquee(document.getElementById('marquee-2'), {
   duplicated: true,
   pauseOnHover: true,
 });
-
-// $('#marquee').marquee({
-//   speed: 5000,
-//   gap: 50,
-//   delayBeforeStart: 0,
-//   direction: 'left',
-//   duplicated: true,
-//   pauseOnHover: true,
-// });

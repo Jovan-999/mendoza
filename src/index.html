@@ -7,7 +7,64 @@
     <script type="module" src="/src/main.js" defer></script>
   </head>
   <body>
-    <div class="flex justify-center"><img src="/img/harold.png" /></div>
+    <div class="relative flex justify-center">
+      <img src="/img/harold.png" />
+      <div class="absolute top-14 right-96 bg-orange h-fit max-w-xl z-50">
+        <h2 class="text-center text-white text-4xl my-10">
+          ¿Cómo te podemos ayudar?
+        </h2>
+        <form class="flex flex-col px-10">
+          <label class="text-white text-base mb-3" for="name"
+            ><strong>Nombre</strong></label
+          >
+          <input
+            class="w-440 h-12 py-4 pl-5 mb-3 bg-orange border-gray2 border-2 rounded-md focus:outline-none focus:border-white placeholder:text-white"
+            type="text"
+            id="nombre"
+            name="nombre"
+            placeholder="José Martinez"
+          />
+
+          <label class="text-white text-base mb-3" for="email"
+            ><strong>Email</strong></label
+          >
+          <input
+            class="w-440 h-12 py-4 pl-5 mb-3 bg-orange border-gray2 border-2 rounded-md focus:outline-none focus:border-white placeholder:text-white"
+            type="text"
+            id="email"
+            name="email"
+            placeholder="Jose@gmail.com"
+          />
+
+          <label class="text-white text-base mb-3" for="number"
+            ><strong>Número de teléfono</strong></label
+          >
+          <input
+            class="w-440 h-12 py-4 pl-5 mb-3 bg-orange border-gray2 border-2 rounded-md focus:outline-none focus:border-white placeholder:text-white"
+            type="text"
+            id="number"
+            name="number"
+            placeholder="(555) 555-5555"
+          />
+
+          <label class="text-white text-base mb-3" for="subject"
+            ><strong>Mensaje</strong></label
+          >
+          <textarea
+            class="w-440 h-140 pt-4 pl-5 bg-orange border-gray2 border-2 rounded-md focus:outline-none focus:border-white placeholder:text-white"
+            id="subject"
+            name="subject"
+            placeholder="Busco un abogado porque…"
+          ></textarea>
+        </form>
+        <div class="flex items-center justify-center my-6">
+          <a
+            class="bg-white text-orange rounded-full w-56 h-16 text-xl flex items-center justify-center gap-6"
+            ><strong>Mandar</strong> <img src="/img/arrow.svg" alt="Arrow"
+          /></a>
+        </div>
+      </div>
+    </div>
     <div
       class="bg-gray max-w-1920 mx-auto overflow-hidden whitespace-nowrap"
       id="marquee"
@@ -49,14 +106,16 @@
           Los abogados con resultados favorables en casos “imposibles”
         </p>
       </div>
-      <div class="flex justify-center items-center">
-        <div class="bg-gray max-w-400 h-96 relative mr-24">
+      <div
+        class="grid gap-24 items-center justify-items-center grid-cols-1 md:grid-cols-2 lg:grid-cols-3"
+      >
+        <div class="bg-gray max-w-400 w-full h-96 relative">
           <img
-            class="absolute left-36 -top-11"
+            class="absolute left-40 -top-11"
             src="/img/internet.svg"
             alt="Internet Icon"
           />
-          <h2 class="text-4xl pt-16 px-24">En Internet</h2>
+          <h2 class="text-4xl pt-16 text-center">En Internet</h2>
           <div class="pl-6 pr-8 pt-8 text-2xl">
             <p>Email:</p>
             <p><strong>abogada@mendozafirm.com</strong></p>
@@ -67,27 +126,27 @@
             </div>
           </div>
         </div>
-        <div class="bg-gray max-w-400 h-96 relative mr-24">
+        <div class="bg-gray max-w-400 w-full h-96 relative">
           <img
             class="absolute left-40 -top-11"
             src="/img/phone-call.svg"
             alt="Phone svg"
           />
-          <h2 class="text-4xl pt-16 px-32">Teléfono</h2>
-          <div class="pl-28 text-2xl">
+          <h2 class="text-4xl pt-16 text-center">Teléfono</h2>
+          <div class="text-2xl pl-28 md:pl-16 pr-16">
             <p class="pt-8">Local:</p>
             <p><b>+1 (202) 933-3379</b></p>
             <p class="pt-9">Toll Free:</p>
             <p><strong>(800) 000-0000</strong></p>
           </div>
         </div>
-        <div class="bg-gray max-w-400 h-96 relative">
+        <div class="bg-gray max-w-400 w-full h-96 relative">
           <img
             class="absolute left-40 -top-11"
             src="/img/location-pin.svg"
             alt="Maps"
           />
-          <h2 class="text-4xl pt-16 px-28">Ubicación</h2>
+          <h2 class="text-4xl pt-16 text-center">Ubicación</h2>
           <div class="pl-14 pr-10 pt-10 text-2xl">
             <p>601 Pennsylvania Ave</p>
             <p>NW,</p>
@@ -176,36 +235,47 @@
       </div>
     </div>
 
-    <div class="max-w-1400 mx-auto flex mt-36 gap-24">
-      <div class="max-w-400 h-80 relative bg-gray">
-        <img class="absolute -top-2 left-0" src="/img/quote-left.svg" />
+    <div
+      class="max-w-1400 mx-auto w-full flex justify-center flex-wrap gap-24 mt-36 mb-96"
+    >
+      <div class="max-w-400 w-full h-80 relative bg-gray">
+        <img class="absolute -top-2 -left-3" src="/img/quote-left.svg" />
         <img class="absolute -top-20 left-40" src="/img/first-man.svg" />
-        <p class="px-9 pt-16 text-xl">
+        <p class="px-9 pt-16 h-72 overflow-hidden text-xl">
           Quiero agradecer a Dios y a la abogada Maria Mendoza y su equipo que
           hicieron un excelente trabajo porque otros dos abogados no me ayudaron
           y con ella u su equipo, gracias a Dios, aquí están los resultados.
           Gracias …. si se puede con ella.
         </p>
       </div>
-      <div class="max-w-400 h-80 relative bg-gray">
-        <img class="absolute -top-2 left-0" src="/img/quote-left.svg" />
+      <div class="max-w-400 w-full h-80 relative bg-gray">
+        <img class="absolute -top-2 -left-3" src="/img/quote-left.svg" />
         <img class="absolute -top-20 left-40" src="/img/second-man.svg" />
-        <p class="px-9 pt-16 text-xl">
-          Quiero agradecer a Dios y a la abogada Maria Mendoza y su equipo que
-          hicieron un excelente trabajo porque otros dos abogados no me ayudaron
-          y con ella u su equipo, gracias a Dios, aquí están los resultados.
-          Gracias …. si se puede con ella.
+        <p class="px-9 pt-16 h-72 overflow-hidden text-xl">
+          Tuve muchas malas experiencias con los abogados, como creo que todos,
+          roban el dinero y no te hacen el favor, pero la abogada Mendoza si
+          cumplió. Tengo mi permiso de trabajo, mi tarjeta de seguro social, el
+          permiso de viaje … muy bien la abogada … recomiendo mucho a la abogada
+          Mendoza.
         </p>
       </div>
-      <div class="max-w-400 h-80 relative bg-gray">
-        <img class="absolute -top-2 left-0" src="/img/quote-left.svg" />
+      <div class="max-w-400 w-full h-80 relative bg-gray">
+        <img class="absolute -top-2 -left-3" src="/img/quote-left.svg" />
         <img class="absolute -top-20 left-40" src="/img/third-man.svg" />
-        <p class="px-9 pt-16 text-xl">
-          Quiero agradecer a Dios y a la abogada Maria Mendoza y su equipo que
-          hicieron un excelente trabajo porque otros dos abogados no me ayudaron
-          y con ella u su equipo, gracias a Dios, aquí están los resultados.
-          Gracias …. si se puede con ella.
+        <p class="px-9 pt-16 h-72 overflow-hidden text-xl">
+          La vida me cambió por completo, muchos planes aquí en Estados Unidos a
+          lado de mi familia y con mejor trabajo, mucha tranquilidad aquí en
+          este país muchísimas gracias a usted y a todo su equipo de trabajo
+          100% recomendable y muy agradecido con ustedes dios los bendiga hoy y
+          siempre.
         </p>
+      </div>
+      <div class="w-full flex items-center justify-center">
+        <a
+          class="bg-orange text-white rounded-full w-72 h-16 text-xl flex items-center justify-center"
+        >
+          <strong>+&nbsp; Ver más testimonios</strong>
+        </a>
       </div>
     </div>
   </body>
