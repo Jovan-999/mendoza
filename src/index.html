@@ -61,9 +61,30 @@
         </form>
         <div class="flex items-center justify-center my-6">
           <a
-            class="bg-white text-orange rounded-full w-56 h-16 text-xl flex items-center justify-center gap-6"
-            ><strong>Mandar</strong> <img src="/img/arrow.svg" alt="Arrow"
-          /></a>
+            class="button bg-white text-orange rounded-full w-56 h-16 text-xl flex items-center justify-center hover:bg-red hover:w-72"
+            ><span class="span-1"
+              ><strong>Mandar</strong>
+              <img class="ml-4" src="/img/arrow.svg" alt="Arrow"
+            /></span>
+            <span class="span-2 text-white"
+              ><strong>Checa si calificas &nbsp;</strong>
+              <img src="/img/white-arrow.svg" alt="Arrow"
+            /></span>
+            <style>
+              .button .span-1 {
+                display: flex;
+              }
+              .button:hover .span-1 {
+                display: none;
+              }
+              .button .span-2 {
+                display: none;
+              }
+              .button:hover .span-2 {
+                display: flex;
+              }
+            </style></a
+          >
         </div>
       </div>
     </div>
@@ -277,9 +298,27 @@
         class="w-full grid col-start-1 xl:col-start-2 justify-items-center items-center"
       >
         <a
-          class="bg-orange text-white rounded-full w-72 h-16 text-xl flex items-center justify-center"
+          class="button2 bg-orange text-white rounded-full w-72 h-16 text-xl flex items-center justify-center hover:bg-red '"
         >
-          <strong>+&nbsp; Ver más testimonios</strong>
+          <span class="span1">+&nbsp; Ver más testimonios</span>
+          <span class="span2 text-white"
+            >Haz tu consulta hoy
+            <img class="ml-4" src="/img/white-arrow.svg" alt="arrow"
+          /></span>
+          <style>
+            .button2 .span1 {
+              display: inline;
+            }
+            .button2:hover .span1 {
+              display: none;
+            }
+            .button2 .span2 {
+              display: none;
+            }
+            .button2:hover .span2 {
+              display: flex;
+            }
+          </style>
         </a>
       </div>
     </div>

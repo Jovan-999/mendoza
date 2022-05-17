@@ -6,6 +6,7 @@ module.exports = {
         gray: '#F7F7F7',
         gray2: '#D88C70',
         orange: '#CA7353',
+        red: '#cc4a1a',
       },
       fontFamily: {
         secondary: ['Poppins'],
@@ -29,12 +30,9 @@ module.exports = {
       backgroundImage: {
         'usa-map': 'url(/img/USA.svg);',
       },
-      animation: {
-        infinite:
-          '14.54s linear 1s infinite normal none running marqueeAnimation-2508740',
-      },
-      // backgroundImage: {
-      //   usa: "url('/img/USA.svg')",
+      // animation: {
+      //   infinite:
+      //     '14.54s linear 1s infinite normal none running marqueeAnimation-2508740',
       // },
     },
   },
