@@ -61,30 +61,15 @@
         </form>
         <div class="flex items-center justify-center my-6">
           <a
-            class="button bg-white text-orange rounded-full w-56 h-16 text-xl flex items-center justify-center hover:bg-red hover:w-72 font-helvetica"
-            ><span class="span-1"
-              ><strong>Mandar</strong>
-              <img class="ml-4" src="/img/arrow.svg" alt="Arrow"
-            /></span>
-            <span class="span-2 text-white"
-              ><strong>Checa si calificas &nbsp;</strong>
-              <img src="/img/white-arrow.svg" alt="Arrow"
-            /></span>
-            <style>
-              .button .span-1 {
-                display: flex;
-              }
-              .button:hover .span-1 {
-                display: none;
-              }
-              .button .span-2 {
-                display: none;
-              }
-              .button:hover .span-2 {
-                display: flex;
-              }
-            </style></a
-          >
+            class="bg-white text-orange rounded-full w-56 h-16 text-xl flex items-center justify-center hover:after:flex hover:after:items-center hover:after:justify-center hover:text-0 font-helvetica hover:bg-red hover:after:text-white hover:w-72 hover:after:text-xl hover:after:content-[attr(data-hover)]"
+            data-hover="Checa si calificas &xrarr;"
+            ><strong>Mandar &nbsp; &xrarr;</strong>
+            <!-- <img
+              class="ml-4 inline hover:after:hidden"
+              src="/img/arrow.svg"
+              alt="Arrow"
+            /> -->
+          </a>
         </div>
       </div>
     </div>
@@ -298,27 +283,10 @@
         class="w-full grid col-start-1 xl:col-start-2 justify-items-center items-center"
       >
         <a
-          class="button2 bg-orange text-white rounded-full w-72 h-16 text-xl flex items-center justify-center hover:bg-red font-helvetica'"
+          class="bg-orange text-white rounded-full w-72 h-16 text-xl flex items-center justify-center hover:after:flex hover:after:items-center hover:after:justify-center hover:text-0 font-helvetica hover:bg-red hover:after:text-white hover:w-72 hover:after:text-xl hover:after:content-[attr(data-hover)]"
+          data-hover="Haz tu consulta hoy &nbsp; &xrarr;"
         >
-          <span class="span1">+&nbsp; Ver más testimonios</span>
-          <span class="span2 text-white"
-            >Haz tu consulta hoy
-            <img class="ml-4" src="/img/white-arrow.svg" alt="arrow"
-          /></span>
-          <style>
-            .button2 .span1 {
-              display: inline;
-            }
-            .button2:hover .span1 {
-              display: none;
-            }
-            .button2 .span2 {
-              display: none;
-            }
-            .button2:hover .span2 {
-              display: flex;
-            }
-          </style>
+          <span>+&nbsp; Ver más testimonios</span>
         </a>
       </div>
     </div>

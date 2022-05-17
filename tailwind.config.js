@@ -20,6 +20,9 @@ module.exports = {
         ],
         libre: ['Libre Baskerville', 'serif'],
       },
+      fontSize: {
+        0: '0',
+      },
       inset: {
         40: '40%',
       },
