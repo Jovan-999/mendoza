@@ -9,7 +9,16 @@ module.exports = {
         red: '#cc4a1a',
       },
       fontFamily: {
-        secondary: ['Poppins'],
+        helvetica: [
+          'Helvetica Neue',
+          'HelveticaNeue-Light',
+          'Helvetica Neue Light',
+          'Helvetica',
+          'Arial',
+          'Lucida Grande',
+          'sans-serif',
+        ],
+        libre: ['Libre Baskerville', 'serif'],
       },
       inset: {
         40: '40%',
