@@ -16,7 +16,7 @@
   /* 2 */
   border-style: solid;
   /* 2 */
-  border-color: currentColor;
+  border-color: #e5e7eb;
   /* 2 */
 }
 
@@ -730,12 +730,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   border-width: 2px;
 }
 
-.border-gray2 {
+.border-grayLight {
   --tw-border-opacity: 1;
   border-color: rgb(216 140 112 / var(--tw-border-opacity));
 }
 
-.bg-orange {
+.bg-lightOrange {
   --tw-bg-opacity: 1;
   background-color: rgb(202 115 83 / var(--tw-bg-opacity));
 }
@@ -745,7 +745,7 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.bg-gray {
+.bg-darkGray {
   --tw-bg-opacity: 1;
   background-color: rgb(247 247 247 / var(--tw-bg-opacity));
 }
@@ -864,7 +864,7 @@ Ensure the default browser behavior of the `hidden` attribute.
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-.text-orange {
+.text-lightOrange {
   --tw-text-opacity: 1;
   color: rgb(202 115 83 / var(--tw-text-opacity));
 }
@@ -889,15 +889,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-.hover\:hidden:hover {
-  display: none;
-}
-
 .hover\:w-72:hover {
   width: 18rem;
 }
 
-.hover\:bg-red:hover {
+.hover\:bg-darkOrange:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(204 74 26 / var(--tw-bg-opacity));
 }
@@ -916,11 +912,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   display: none;
 }
 
-.hover\:after\:w-72:hover::after {
-  content: var(--tw-content);
-  width: 18rem;
-}
-
 .hover\:after\:items-center:hover::after {
   content: var(--tw-content);
   align-items: center;
@@ -929,18 +920,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .hover\:after\:justify-center:hover::after {
   content: var(--tw-content);
   justify-content: center;
-}
-
-.hover\:after\:bg-red:hover::after {
-  content: var(--tw-content);
-  --tw-bg-opacity: 1;
-  background-color: rgb(204 74 26 / var(--tw-bg-opacity));
-}
-
-.hover\:after\:text-base:hover::after {
-  content: var(--tw-content);
-  font-size: 1rem;
-  line-height: 1.5rem;
 }
 
 .hover\:after\:text-xl:hover::after {

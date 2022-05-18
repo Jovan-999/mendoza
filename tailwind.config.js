@@ -3,10 +3,10 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        gray: '#F7F7F7',
-        gray2: '#D88C70',
-        orange: '#CA7353',
-        red: '#cc4a1a',
+        darkGray: '#F7F7F7',
+        grayLight: '#D88C70',
+        lightOrange: '#CA7353',
+        darkOrange: '#cc4a1a',
       },
       fontFamily: {
         helvetica: [
