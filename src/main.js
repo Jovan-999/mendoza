@@ -14,7 +14,6 @@ const secondScroller = new marquee(document.getElementById('marquee-1'), {
   delayBeforeStart: 0,
   direction: 'left',
   duplicated: true,
-  pauseOnHover: true,
 });
 const thirdScroller = new marquee(document.getElementById('marquee-2'), {
   speed: 300,
@@ -22,5 +21,4 @@ const thirdScroller = new marquee(document.getElementById('marquee-2'), {
   delayBeforeStart: 0,
   direction: 'right',
   duplicated: true,
-  pauseOnHover: true,
 });

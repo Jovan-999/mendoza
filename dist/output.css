@@ -584,14 +584,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-bottom: 24rem;
 }
 
-.-mb-40 {
-  margin-bottom: -10rem;
-}
-
-.-mt-40 {
-  margin-top: -10rem;
-}
-
 .inline {
   display: inline;
 }
@@ -835,10 +827,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-top: 2.5rem;
 }
 
-.pt-40 {
-  padding-top: 10rem;
-}
-
 .text-center {
   text-align: center;
 }
@@ -965,9 +953,19 @@ Ensure the default browser behavior of the `hidden` attribute.
   border-color: rgb(255 255 255 / var(--tw-border-opacity));
 }
 
+.focus\:text-white:focus {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
 .focus\:outline-none:focus {
   outline: 2px solid transparent;
   outline-offset: 2px;
+}
+
+.active\:text-white:active {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 @media (min-width: 640px) {
