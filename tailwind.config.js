@@ -1,6 +1,13 @@
 module.exports = {
   content: ['./src/**/*.{html,js}'],
   theme: {
+    screens: {
+      '2xl': { 'max': '1535px' },
+      'xl': { 'max': '1279px' },
+      'lg': { 'max': '1023px' },
+      'md': { 'max': '767px' },
+      'sm': { 'max': '639px' },
+    },
     extend: {
       colors: {
         darkGray: '#F7F7F7',
@@ -36,16 +43,14 @@ module.exports = {
       },
       height: {
         140: '140px',
+        609: '609px',
         670: '670px',
         683: '683px',
       },
       backgroundImage: {
         'usa-map': 'url(/img/USA.svg);',
+        'harold-picture': 'url(/img/harold.png);',
       },
-      // animation: {
-      //   infinite:
-      //     '14.54s linear 1s infinite normal none running marqueeAnimation-2508740',
-      // },
     },
   },
   plugins: [],
