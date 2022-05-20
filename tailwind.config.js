@@ -49,7 +49,7 @@ module.exports = {
       },
       backgroundImage: {
         'usa-map': 'url(/img/USA.svg);',
-        'harold-picture': 'url(/img/harold.png);',
+        'home-hero': 'url(/img/home-hero.jpg);',
       },
     },
   },
