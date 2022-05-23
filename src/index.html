@@ -8,18 +8,20 @@
   </head>
   <body>
     <div
-      class="max-w-1920 mx-auto flex justify-end xl:justify-center h-609 bg-home-hero bg-no-repeat bg-auto font-helvetica"
+      class="max-w-1920 mx-auto flex justify-end xl:justify-center h-609 lg:h-full bg-cover lg:bg-center bg-home-hero lg:bg-home-harold bg-no-repeat font-helvetica"
     >
-      <div class="bg-lightOrange h-fit max-w-xl xl:max-w-md lg:max-w-sm z-50 xl:mr-0 mr-96 mt-14">
+      <div
+        class="bg-lightOrange h-fit max-w-xl xl:max-w-md lg:max-w-sm z-50 xl:mr-0 mr-96 sm:mx-4 lg:my-12 sm:my-5 mt-7"
+      >
         <h2 class="text-center text-white text-4xl my-10 font-helvetica">
           ¿Cómo te podemos ayudar?
         </h2>
-        <form class="flex flex-col px-10 font-helvetica">
+        <form class="flex flex-col px-10 md:px-6 font-helvetica">
           <label class="text-white text-base mb-3" for="name"
             ><strong>Nombre</strong></label
           >
           <input
-            class="focus:text-white w-440 xl:w-96 lg:w-72  h-12 py-4 pl-5 mb-3 bg-lightOrange border-grayLight border-2 rounded-md focus:outline-none focus:border-white placeholder:text-white"
+            class="focus:text-white w-440 xl:w-96 lg:w-72 h-12 py-4 pl-5 mb-3 bg-lightOrange border-grayLight border-2 rounded-md focus:outline-none focus:border-white placeholder:text-white"
             type="text"
             id="nombre"
             name="nombre"
@@ -52,7 +54,7 @@
             ><strong>Mensaje</strong></label
           >
           <textarea
-            class="focus:text-white w-440 xl:w-96 lg:w-72 h-140 pt-4 pl-5 bg-lightOrange border-grayLight border-2 rounded-md focus:outline-none focus:border-white placeholder:text-white"
+            class="focus:text-white w-440 xl:w-96 lg:w-72 h-140 lg:h-28 pt-4 pl-5 bg-lightOrange border-grayLight border-2 rounded-md focus:outline-none focus:border-white placeholder:text-white"
             id="subject"
             name="subject"
             placeholder="Busco un abogado porque…"
@@ -101,408 +103,440 @@
     </div>
     <div class="max-w-1400 mx-auto">
       <div class="text-center mt-16">
-        <h2 class="text-lightOrange text-6xl font-secondary mb-3 font-libre">
+        <h2
+          class="text-lightOrange text-6xl lg:text-4xl sm:text-3xl font-secondary mb-3 font-libre"
+        >
           The Mendoza Law Firm
         </h2>
-        <p class="text-4xl mb-24 font-helvetica">
+        <p class="text-4xl lg:text-3xl sm:text-2xl mb-24 font-helvetica">
           Los abogados con resultados favorables en casos “imposibles”
         </p>
       </div>
       <div
-        class="mx-6 md:mx-12 grid gap-24 items-center justify-items-center grid-cols-3 lg:grid-cols-2 sm:grid-cols-1 font-helvetica"
+        class="mx-6 md:mx-12 grid items-center justify-items-center gap-24 grid-cols-3 lg:grid-cols-1 font-helvetica"
       >
-        <div class="bg-darkGray max-w-400 w-full h-96 relative">
+        <div
+          class="bg-darkGray max-w-400 lg:max-w-275 lg:h-270 w-full h-96 relative"
+        >
           <img
-            class="absolute left-40 -top-11"
+            class="absolute -top-11 left-40 xl:left-1/3"
             src="/img/internet.svg"
             alt="Internet Icon"
           />
-          <h2 class="text-4xl pt-16 text-center">En Internet</h2>
-          <div class="px-6 pt-8 text-2xl">
+          <h2 class="text-3xl pt-16 lg:pt-12 text-center">En Internet</h2>
+          <div class="px-6 pt-8 lg:pt-5 text-2xl lg:text-xl">
             <p>Email:</p>
-            <p class="font-bold break-normal xl:break-words">
+            <p class="font-bold break-normal xl:break-words xl:text-base">
               abogada@mendozafirm.com
             </p>
-            <p class="mt-10">Medios Sociales:</p>
+            <p class="mt-10 lg:mt-3">Medios Sociales:</p>
             <div class="flex items-center pt-3">
-              <img class="pr-4 lg:w-11 lg:h-11" src="/img/facebook.svg" alt="facebook" />
-              <img class="lg:w-7 lg:h-7" src="/img/instagram.svg" alt="instagram" />
+              <img class="pr-4" src="/img/facebook.svg" alt="facebook" />
+              <img src="/img/instagram.svg" alt="instagram" />
             </div>
           </div>
         </div>
-        <div class="bg-darkGray max-w-400 px-14 xl:px-6 w-full h-96 relative">
+        <div
+          class="bg-darkGray max-w-400 lg:max-w-275 lg:h-270 px-14 xl:px-6 w-full h-96 relative"
+        >
           <img
-            class="absolute left-40 -top-11"
+            class="absolute -top-11 left-40 xl:left-1/3"
             src="/img/phone-call.svg"
             alt="Phone svg"
           />
-          <h2 class="text-4xl pt-16 text-center">Teléfono</h2>
-          <div class="text-2xl">
-            <p class="pt-8">Local:</p>
+          <h2 class="text-3xl pt-16 lg:pt-12 text-center">Teléfono</h2>
+          <div class="text-2xl lg:text-xl">
+            <p class="pt-8 lg:pt-4">Local:</p>
             <p><b>+1 (202) 933-3379</b></p>
-            <p class="pt-9">Toll Free:</p>
+            <p class="pt-8 lg:pt-4">Toll Free:</p>
             <p><strong>(800) 000-0000</strong></p>
           </div>
         </div>
-        <div class="bg-darkGray max-w-400 w-full h-96 relative">
+        <div
+          class="bg-darkGray max-w-400 lg:max-w-275 lg:h-270 w-full h-96 relative"
+        >
           <img
-            class="absolute left-40 -top-11"
+            class="absolute -top-11 left-40"
             src="/img/location-pin.svg"
             alt="Maps"
           />
-          <h2 class="text-4xl pt-16 text-center">Ubicación</h2>
-          <div class="px-14 xl:px-6 pt-10 text-2xl">
-            <p>601 Pennsylvania Ave</p>
-            <p>NW,</p>
+          <h2 class="text-3xl pt-16 lg:pt-12 text-center">Ubicación</h2>
+          <div class="px-14 lg:px-4 xl:px-6 pt-10 lg:pt-3 text-2xl lg:text-xl">
+            <p>601 Pennsylvania Ave NW,</p>
             <p>Washington, DC</p>
             <p>20004, USA</p>
-            <img src="/img/maps.png" alt="Google Maps" />
+            <div class="max-w-275 h-60 sm:pt-4">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3105.3474467641645!2d-77.02234488423842!3d38.893169279571275!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7b73acdd86791%3A0x20db6943fbd00df7!2s601%20Pennsylvania%20Avenue%20NW%2C%20Washington%2C%20DC%2020004%2C%20USA!5e0!3m2!1sen!2srs!4v1653326901266!5m2!1sen!2srs"
+                width="100%"
+                height="100%"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
           </div>
         </div>
       </div>
     </div>
     <div class="max-w-1920 mx-auto w-full">
-      <h2 class="text-center text-6xl text-lightOrange mt-24 font-libre">
+      <h2
+        class="text-center text-6xl lg:text-4xl sm:text-3xl text-lightOrange mt-24 font-libre"
+      >
         Ayudando Clientes en Todos los Estados
       </h2>
-      <div class="bg-center bg-usa-map h-670 bg-no-repeat bg-auto">
-        <div class="mt-10">
-          <div id="marquee-1" class="overflow-hidden whitespace-nowrap">
-            <div class="flex flex-row items-center gap-10 mt-40">
-              <img
-                class="border-4 border-lightOrange rounded-full"
-                src="/img/1.svg"
-                alt="Person"
-              />
-              <img
-                class="border-4 border-lightOrange rounded-full"
-                src="/img/2.svg"
-                alt="Person"
-              />
-              <img
-                class="border-4 border-lightOrange rounded-full"
-                src="/img/3.svg"
-                alt="Person"
-              />
-              <img
-                class="border-4 border-lightOrange rounded-full"
-                src="/img/4.svg"
-                alt="Person"
-              />
-              <img
-                class="border-4 border-lightOrange rounded-full"
-                src="/img/5.svg"
-                alt="Person"
-              />
-              <img
-                class="border-4 border-lightOrange rounded-full"
-                src="/img/6.svg"
-                alt="Person"
-              />
-              <img
-                class="border-4 border-lightOrange rounded-full"
-                src="/img/7.svg"
-                alt="Person"
-              />
-              <img
-                class="border-4 border-lightOrange rounded-full"
-                src="/img/8.svg"
-                alt="Person"
-              />
-              <img
-                class="border-4 border-lightOrange rounded-full"
-                src="/img/9.svg"
-                alt="Person"
-              />
-              <img
-                class="border-4 border-lightOrange rounded-full"
-                src="/img/10.svg"
-                alt="Person"
-              />
-              <img
-                class="border-4 border-lightOrange rounded-full"
-                src="/img/11.svg"
-                alt="Person"
-              />
-              <img
-                class="border-4 border-lightOrange rounded-full"
-                src="/img/12.svg"
-                alt="Person"
-              />
-              <img
-                class="border-4 border-lightOrange rounded-full"
-                src="/img/13.svg"
-                alt="Person"
-              />
-              <img
-                class="border-4 border-lightOrange rounded-full"
-                src="/img/14.svg"
-                alt="Person"
-              />
-              <img
-                class="border-4 border-lightOrange rounded-full"
-                src="/img/15.svg"
-                alt="Person"
-              />
-              <img
-                class="border-4 border-lightOrange rounded-full"
-                src="/img/16.svg"
-                alt="Person"
-              />
-              <img
-                class="border-4 border-lightOrange rounded-full"
-                src="/img/17.svg"
-                alt="Person"
-              />
-              <img
-                class="border-4 border-lightOrange rounded-full"
-                src="/img/18.svg"
-                alt="Person"
-              />
-              <img
-                class="border-4 border-lightOrange rounded-full"
-                src="/img/19.svg"
-                alt="Person"
-              />
-              <img
-                class="border-4 border-lightOrange rounded-full"
-                src="/img/20.svg"
-                alt="Person"
-              />
-              <img
-                class="border-4 border-lightOrange rounded-full"
-                src="/img/21.svg"
-                alt="Person"
-              />
-              <img
-                class="border-4 border-lightOrange rounded-full"
-                src="/img/22.svg"
-                alt="Person"
-              />
-              <img
-                class="border-4 border-lightOrange rounded-full"
-                src="/img/23.svg"
-                alt="Person"
-              />
-              <img
-                class="border-4 border-lightOrange rounded-full"
-                src="/img/24.svg"
-                alt="Person"
-              />
-              <img
-                class="border-4 border-lightOrange rounded-full"
-                src="/img/25.svg"
-                alt="Person"
-              />
-              <img
-                class="border-4 border-lightOrange rounded-full"
-                src="/img/26.svg"
-                alt="Person"
-              />
-              <img
-                class="border-4 border-lightOrange rounded-full"
-                src="/img/27.svg"
-                alt="Person"
-              />
-              <img
-                class="border-4 border-lightOrange rounded-full"
-                src="/img/28.svg"
-                alt="Person"
-              />
-              <img
-                class="border-4 border-lightOrange rounded-full"
-                src="/img/29.svg"
-                alt="Person"
-              />
-              <img
-                class="border-4 border-lightOrange rounded-full"
-                src="/img/30.svg"
-                alt="Person"
-              />
-              <img
-                class="border-4 border-lightOrange rounded-full"
-                src="/img/31.svg"
-                alt="Person"
-              />
-              <img
-                class="border-4 border-lightOrange rounded-full"
-                src="/img/32.svg"
-                alt="Person"
-              />
-              <img
-                class="border-4 border-lightOrange rounded-full"
-                src="/img/33.svg"
-                alt="Person"
-              />
-              <img
-                class="border-4 border-lightOrange rounded-full"
-                src="/img/34.svg"
-                alt="Person"
-              />
-              <img
-                class="border-4 border-lightOrange rounded-full"
-                src="/img/35.svg"
-                alt="Person"
-              />
-              <img
-                class="border-4 border-lightOrange rounded-full"
-                src="/img/36.svg"
-                alt="Person"
-              />
-              <img
-                class="border-4 border-lightOrange rounded-full"
-                src="/img/37.svg"
-                alt="Person"
-              />
-              <img
-                class="border-4 border-lightOrange rounded-full"
-                src="/img/38.svg"
-                alt="Person"
-              />
-              <img
-                class="border-4 border-lightOrange rounded-full"
-                src="/img/39.svg"
-                alt="Person"
-              />
-            </div>
+      <div class="relative max-w-1050 mx-auto mt-10 lg:mt-0">
+        <img src="/img/USA.svg" class="absolute -z-10" />
+      </div>
+      <div class="mt-10">
+        <div id="marquee-1" class="overflow-hidden whitespace-nowrap">
+          <div
+            class="flex flex-row items-center gap-10 lg:gap-7 mt-40 lg:mt-20 md:mt-0"
+          >
+            <img
+              class="border-4 border-lightOrange rounded-full w-20 h-20 lg:w-14 lg:h-14"
+              src="/img/1.svg"
+              alt="Person"
+            />
+            <img
+              class="border-4 border-lightOrange rounded-full w-20 h-20 lg:w-14 lg:h-14"
+              src="/img/2.svg"
+              alt="Person"
+            />
+            <img
+              class="border-4 border-lightOrange rounded-full w-20 h-20 lg:w-14 lg:h-14"
+              src="/img/3.svg"
+              alt="Person"
+            />
+            <img
+              class="border-4 border-lightOrange rounded-full w-20 h-20 lg:w-14 lg:h-14"
+              src="/img/4.svg"
+              alt="Person"
+            />
+            <img
+              class="border-4 border-lightOrange rounded-full w-20 h-20 lg:w-14 lg:h-14"
+              src="/img/5.svg"
+              alt="Person"
+            />
+            <img
+              class="border-4 border-lightOrange rounded-full w-20 h-20 lg:w-14 lg:h-14"
+              src="/img/6.svg"
+              alt="Person"
+            />
+            <img
+              class="border-4 border-lightOrange rounded-full w-20 h-20 lg:w-14 lg:h-14"
+              src="/img/7.svg"
+              alt="Person"
+            />
+            <img
+              class="border-4 border-lightOrange rounded-full w-20 h-20 lg:w-14 lg:h-14"
+              src="/img/8.svg"
+              alt="Person"
+            />
+            <img
+              class="border-4 border-lightOrange rounded-full w-20 h-20 lg:w-14 lg:h-14"
+              src="/img/9.svg"
+              alt="Person"
+            />
+            <img
+              class="border-4 border-lightOrange rounded-full w-20 h-20 lg:w-14 lg:h-14"
+              src="/img/10.svg"
+              alt="Person"
+            />
+            <img
+              class="border-4 border-lightOrange rounded-full w-20 h-20 lg:w-14 lg:h-14"
+              src="/img/11.svg"
+              alt="Person"
+            />
+            <img
+              class="border-4 border-lightOrange rounded-full w-20 h-20 lg:w-14 lg:h-14"
+              src="/img/12.svg"
+              alt="Person"
+            />
+            <img
+              class="border-4 border-lightOrange rounded-full w-20 h-20 lg:w-14 lg:h-14"
+              src="/img/13.svg"
+              alt="Person"
+            />
+            <img
+              class="border-4 border-lightOrange rounded-full w-20 h-20 lg:w-14 lg:h-14"
+              src="/img/14.svg"
+              alt="Person"
+            />
+            <img
+              class="border-4 border-lightOrange rounded-full w-20 h-20 lg:w-14 lg:h-14"
+              src="/img/15.svg"
+              alt="Person"
+            />
+            <img
+              class="border-4 border-lightOrange rounded-full w-20 h-20 lg:w-14 lg:h-14"
+              src="/img/16.svg"
+              alt="Person"
+            />
+            <img
+              class="border-4 border-lightOrange rounded-full w-20 h-20 lg:w-14 lg:h-14"
+              src="/img/17.svg"
+              alt="Person"
+            />
+            <img
+              class="border-4 border-lightOrange rounded-full w-20 h-20 lg:w-14 lg:h-14"
+              src="/img/18.svg"
+              alt="Person"
+            />
+            <img
+              class="border-4 border-lightOrange rounded-full w-20 h-20 lg:w-14 lg:h-14"
+              src="/img/19.svg"
+              alt="Person"
+            />
+            <img
+              class="border-4 border-lightOrange rounded-full w-20 h-20 lg:w-14 lg:h-14"
+              src="/img/20.svg"
+              alt="Person"
+            />
+            <img
+              class="border-4 border-lightOrange rounded-full w-20 h-20 lg:w-14 lg:h-14"
+              src="/img/21.svg"
+              alt="Person"
+            />
+            <img
+              class="border-4 border-lightOrange rounded-full w-20 h-20 lg:w-14 lg:h-14"
+              src="/img/22.svg"
+              alt="Person"
+            />
+            <img
+              class="border-4 border-lightOrange rounded-full w-20 h-20 lg:w-14 lg:h-14"
+              src="/img/23.svg"
+              alt="Person"
+            />
+            <img
+              class="border-4 border-lightOrange rounded-full w-20 h-20 lg:w-14 lg:h-14"
+              src="/img/24.svg"
+              alt="Person"
+            />
+            <img
+              class="border-4 border-lightOrange rounded-full w-20 h-20 lg:w-14 lg:h-14"
+              src="/img/25.svg"
+              alt="Person"
+            />
+            <img
+              class="border-4 border-lightOrange rounded-full w-20 h-20 lg:w-14 lg:h-14"
+              src="/img/26.svg"
+              alt="Person"
+            />
+            <img
+              class="border-4 border-lightOrange rounded-full w-20 h-20 lg:w-14 lg:h-14"
+              src="/img/27.svg"
+              alt="Person"
+            />
+            <img
+              class="border-4 border-lightOrange rounded-full w-20 h-20 lg:w-14 lg:h-14"
+              src="/img/28.svg"
+              alt="Person"
+            />
+            <img
+              class="border-4 border-lightOrange rounded-full w-20 h-20 lg:w-14 lg:h-14"
+              src="/img/29.svg"
+              alt="Person"
+            />
+            <img
+              class="border-4 border-lightOrange rounded-full w-20 h-20 lg:w-14 lg:h-14"
+              src="/img/30.svg"
+              alt="Person"
+            />
+            <img
+              class="border-4 border-lightOrange rounded-full w-20 h-20 lg:w-14 lg:h-14"
+              src="/img/31.svg"
+              alt="Person"
+            />
+            <img
+              class="border-4 border-lightOrange rounded-full w-20 h-20 lg:w-14 lg:h-14"
+              src="/img/32.svg"
+              alt="Person"
+            />
+            <img
+              class="border-4 border-lightOrange rounded-full w-20 h-20 lg:w-14 lg:h-14"
+              src="/img/33.svg"
+              alt="Person"
+            />
+            <img
+              class="border-4 border-lightOrange rounded-full w-20 h-20 lg:w-14 lg:h-14"
+              src="/img/34.svg"
+              alt="Person"
+            />
+            <img
+              class="border-4 border-lightOrange rounded-full w-20 h-20 lg:w-14 lg:h-14"
+              src="/img/35.svg"
+              alt="Person"
+            />
+            <img
+              class="border-4 border-lightOrange rounded-full w-20 h-20 lg:w-14 lg:h-14"
+              src="/img/36.svg"
+              alt="Person"
+            />
+            <img
+              class="border-4 border-lightOrange rounded-full w-20 h-20 lg:w-14 lg:h-14"
+              src="/img/37.svg"
+              alt="Person"
+            />
+            <img
+              class="border-4 border-lightOrange rounded-full w-20 h-20 lg:w-14 lg:h-14"
+              src="/img/38.svg"
+              alt="Person"
+            />
+            <img
+              class="border-4 border-lightOrange rounded-full w-20 h-20 lg:w-14 lg:h-14"
+              src="/img/39.svg"
+              alt="Person"
+            />
           </div>
-          <div id="marquee-2" class="overflow-hidden whitespace-nowrap mt-10">
-            <div class="flex flex-row items-center gap-11">
-              <img
-                class="border-4 border-lightOrange rounded-full"
-                src="/img/40.svg"
-                alt="Person"
-              />
-              <img
-                class="border-4 border-lightOrange rounded-full"
-                src="/img/41.svg"
-                alt="Person"
-              />
-              <img
-                class="border-4 border-lightOrange rounded-full"
-                src="/img/42.svg"
-                alt="Person"
-              />
-              <img
-                class="border-4 border-lightOrange rounded-full"
-                src="/img/43.svg"
-                alt="Person"
-              />
-              <img
-                class="border-4 border-lightOrange rounded-full"
-                src="/img/44.svg"
-                alt="Person"
-              />
-              <img
-                class="border-4 border-lightOrange rounded-full"
-                src="/img/45.svg"
-                alt="Person"
-              />
-              <img
-                class="border-4 border-lightOrange rounded-full"
-                src="/img/46.svg"
-                alt="Person"
-              />
-              <img
-                class="border-4 border-lightOrange rounded-full"
-                src="/img/47.svg"
-                alt="Person"
-              />
-              <img
-                class="border-4 border-lightOrange rounded-full"
-                src="/img/48.svg"
-                alt="Person"
-              />
-              <img
-                class="border-4 border-lightOrange rounded-full"
-                src="/img/49.svg"
-                alt="Person"
-              />
-              <img
-                class="border-4 border-lightOrange rounded-full"
-                src="/img/50.svg"
-                alt="Person"
-              />
-              <img
-                class="border-4 border-lightOrange rounded-full"
-                src="/img/51.svg"
-                alt="Person"
-              />
-              <img
-                class="border-4 border-lightOrange rounded-full"
-                src="/img/52.svg"
-                alt="Person"
-              />
-              <img
-                class="border-4 border-lightOrange rounded-full"
-                src="/img/53.svg"
-                alt="Person"
-              />
-              <img
-                class="border-4 border-lightOrange rounded-full"
-                src="/img/54.svg"
-                alt="Person"
-              />
-              <img
-                class="border-4 border-lightOrange rounded-full"
-                src="/img/55.svg"
-                alt="Person"
-              />
-              <img
-                class="border-4 border-lightOrange rounded-full"
-                src="/img/56.svg"
-                alt="Person"
-              />
-              <img
-                class="border-4 border-lightOrange rounded-full"
-                src="/img/57.svg"
-                alt="Person"
-              />
-              <img
-                class="border-4 border-lightOrange rounded-full"
-                src="/img/58.svg"
-                alt="Person"
-              />
-              <img
-                class="border-4 border-lightOrange rounded-full"
-                src="/img/59.svg"
-                alt="Person"
-              />
-              <img
-                class="border-4 border-lightOrange rounded-full"
-                src="/img/60.svg"
-                alt="Person"
-              />
-              <img
-                class="border-4 border-lightOrange rounded-full"
-                src="/img/61.svg"
-                alt="Person"
-              />
-            </div>
+        </div>
+        <div
+          id="marquee-2"
+          class="overflow-hidden whitespace-nowrap mt-10 lg:mt-5"
+        >
+          <div class="flex flex-row items-center gap-11 lg:gap-6">
+            <img
+              class="border-4 border-lightOrange rounded-full w-48 h-48 lg:w-36 lg:h-36"
+              src="/img/40.svg"
+              alt="Person"
+            />
+            <img
+              class="border-4 border-lightOrange rounded-full w-48 h-48 lg:w-36 lg:h-36"
+              src="/img/41.svg"
+              alt="Person"
+            />
+            <img
+              class="border-4 border-lightOrange rounded-full w-48 h-48 lg:w-36 lg:h-36"
+              src="/img/42.svg"
+              alt="Person"
+            />
+            <img
+              class="border-4 border-lightOrange rounded-full w-48 h-48 lg:w-36 lg:h-36"
+              src="/img/43.svg"
+              alt="Person"
+            />
+            <img
+              class="border-4 border-lightOrange rounded-full w-48 h-48 lg:w-36 lg:h-36"
+              src="/img/44.svg"
+              alt="Person"
+            />
+            <img
+              class="border-4 border-lightOrange rounded-full w-48 h-48 lg:w-36 lg:h-36"
+              src="/img/45.svg"
+              alt="Person"
+            />
+            <img
+              class="border-4 border-lightOrange rounded-full w-48 h-48 lg:w-36 lg:h-36"
+              src="/img/46.svg"
+              alt="Person"
+            />
+            <img
+              class="border-4 border-lightOrange rounded-full w-48 h-48 lg:w-36 lg:h-36"
+              src="/img/47.svg"
+              alt="Person"
+            />
+            <img
+              class="border-4 border-lightOrange rounded-full w-48 h-48 lg:w-36 lg:h-36"
+              src="/img/48.svg"
+              alt="Person"
+            />
+            <img
+              class="border-4 border-lightOrange rounded-full w-48 h-48 lg:w-36 lg:h-36"
+              src="/img/49.svg"
+              alt="Person"
+            />
+            <img
+              class="border-4 border-lightOrange rounded-full w-48 h-48 lg:w-36 lg:h-36"
+              src="/img/50.svg"
+              alt="Person"
+            />
+            <img
+              class="border-4 border-lightOrange rounded-full w-48 h-48 lg:w-36 lg:h-36"
+              src="/img/51.svg"
+              alt="Person"
+            />
+            <img
+              class="border-4 border-lightOrange rounded-full w-48 h-48 lg:w-36 lg:h-36"
+              src="/img/52.svg"
+              alt="Person"
+            />
+            <img
+              class="border-4 border-lightOrange rounded-full w-48 h-48 lg:w-36 lg:h-36"
+              src="/img/53.svg"
+              alt="Person"
+            />
+            <img
+              class="border-4 border-lightOrange rounded-full w-48 h-48 lg:w-36 lg:h-36"
+              src="/img/54.svg"
+              alt="Person"
+            />
+            <img
+              class="border-4 border-lightOrange rounded-full w-48 h-48 lg:w-36 lg:h-36"
+              src="/img/55.svg"
+              alt="Person"
+            />
+            <img
+              class="border-4 border-lightOrange rounded-full w-48 h-48 lg:w-36 lg:h-36"
+              src="/img/56.svg"
+              alt="Person"
+            />
+            <img
+              class="border-4 border-lightOrange rounded-full w-48 h-48 lg:w-36 lg:h-36"
+              src="/img/57.svg"
+              alt="Person"
+            />
+            <img
+              class="border-4 border-lightOrange rounded-full w-48 h-48 lg:w-36 lg:h-36"
+              src="/img/58.svg"
+              alt="Person"
+            />
+            <img
+              class="border-4 border-lightOrange rounded-full w-48 h-48 lg:w-36 lg:h-36"
+              src="/img/59.svg"
+              alt="Person"
+            />
+            <img
+              class="border-4 border-lightOrange rounded-full w-48 h-48 lg:w-36 lg:h-36"
+              src="/img/60.svg"
+              alt="Person"
+            />
+            <img
+              class="border-4 border-lightOrange rounded-full w-48 h-48 lg:w-36 lg:h-36"
+              src="/img/61.svg"
+              alt="Person"
+            />
           </div>
         </div>
       </div>
     </div>
     <div
-      class="max-w-1400 mx-auto 2xl:mx-12 md:mx-6 grid gap-24 items-center justify-items-center grid-cols-3 lg:grid-cols-2 sm:grid-cols-1 mt-36 mb-96 font-helvetica"
+      class="max-w-1400 mx-auto 2xl:mx-12 lg:ml-10 lg:mr-24 grid gap-24 items-center justify-items-center grid-cols-3 lg:grid-cols-1 sm:grid-cols-1 sm:mx-9 mt-80 md:mt-52 sm:mt-32 mb-96 font-helvetica"
     >
-      <div class="max-w-400 w-full h-80 relative bg-darkGray">
-        <img class="absolute -top-2 -left-3" src="/img/quote-left.svg" />
+      <div
+        class="max-w-400 lg:max-w-full h-80 lg:h-48 sm:max-w-275 sm:h-72 relative bg-darkGray"
+      >
         <img
-          class="absolute -top-20 left-40 border-4 border-lightOrange rounded-full"
+          class="absolute -top-2 -left-3 w-14 h-12 sm:w-11 sm:h-10"
+          src="/img/quote-left.svg"
+        />
+        <img
+          class="absolute -top-20 right-1/3 xl:right-1/4 lg:-right-14 lg:top-9 border-4 sm:hidden border-lightOrange rounded-full"
           src="/img/first-man.svg"
         />
-        <p class="px-9 pt-16 h-72 overflow-hidden text-xl">
+        <p
+          class="px-9 pt-16 sm:pt-8 lg:pl-16 lg:pr-20 lg:pt-12 lg:h-40 sm:pl-8 sm:pr-4 sm:h-72 h-72 overflow-hidden text-xl"
+        >
           Quiero agradecer a Dios y a la abogada Maria Mendoza y su equipo que
           hicieron un excelente trabajo porque otros dos abogados no me ayudaron
           y con ella u su equipo, gracias a Dios, aquí están los resultados.
           Gracias …. si se puede con ella.
         </p>
       </div>
-      <div class="max-w-400 w-full h-80 relative bg-darkGray">
+      <div class="max-w-400 lg:hidden w-full h-80 relative bg-darkGray">
         <img class="absolute -top-2 -left-3" src="/img/quote-left.svg" />
         <img
-          class="absolute -top-20 left-40 border-4 border-lightOrange rounded-full"
+          class="absolute -top-20 right-1/3 xl:right-1/4 lg:-right-14 lg:top-9 border-4 border-lightOrange rounded-full"
           src="/img/second-man.svg"
         />
         <p class="px-9 pt-16 h-72 overflow-hidden text-xl">
@@ -513,10 +547,10 @@
           Mendoza.
         </p>
       </div>
-      <div class="max-w-400 w-full h-80 relative bg-darkGray">
+      <div class="max-w-400 lg:hidden w-full h-80 relative bg-darkGray">
         <img class="absolute -top-2 -left-3" src="/img/quote-left.svg" />
         <img
-          class="absolute -top-20 left-40 border-4 border-lightOrange rounded-full"
+          class="absolute -top-20 right-1/3 xl:right-1/4 lg:-right-14 lg:top-9 border-4 border-lightOrange rounded-full"
           src="/img/third-man.svg"
         />
         <p class="px-9 pt-16 h-72 overflow-hidden text-xl">

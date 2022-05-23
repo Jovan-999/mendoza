@@ -2,11 +2,11 @@ module.exports = {
   content: ['./src/**/*.{html,js}'],
   theme: {
     screens: {
-      '2xl': { 'max': '1535px' },
-      'xl': { 'max': '1279px' },
-      'lg': { 'max': '1023px' },
-      'md': { 'max': '767px' },
-      'sm': { 'max': '639px' },
+      '2xl': { max: '1535px' },
+      xl: { max: '1279px' },
+      lg: { max: '1023px' },
+      md: { max: '767px' },
+      sm: { max: '639px' },
     },
     extend: {
       colors: {
@@ -30,26 +30,29 @@ module.exports = {
       fontSize: {
         0: '0',
       },
-      inset: {
-        40: '40%',
-      },
       maxWidth: {
+        275: '275px',
         400: '400px',
+        1050: '1050px',
         1400: '1400px',
         1920: '1920px',
       },
       width: {
         440: '440px',
       },
+      inset: {
+        40: '40%',
+      },
       height: {
+        60: '60px',
         140: '140px',
+        270: '270px',
         609: '609px',
-        670: '670px',
-        683: '683px',
       },
       backgroundImage: {
         'usa-map': 'url(/img/USA.svg);',
         'home-hero': 'url(/img/home-hero.jpg);',
+        'home-harold': 'url(/img/harold.png);',
       },
     },
   },
