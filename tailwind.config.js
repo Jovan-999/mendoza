@@ -52,7 +52,7 @@ module.exports = {
       backgroundImage: {
         'usa-map': 'url(/img/USA.svg);',
         'home-hero': 'url(/img/home-hero.jpg);',
-        'home-harold': 'url(/img/harold.png);',
+        'home-hero-2': 'url(/img/home-hero-2.png);',
       },
     },
   },
