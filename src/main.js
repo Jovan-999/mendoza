@@ -28,3 +28,18 @@ const thirdScroller = new marquee(document.getElementById('marquee-2'), {
   duplicated: true,
   duration: 5000,
 });
+
+// SLIDER
+
+const configuration = {
+  type: 'carousel',
+  perView: 3,
+  focusAt: 'center',
+  gap: 100,
+  breakpoints: {
+    1023: {
+      perView: 1,
+    },
+  },
+};
+new Glide('.glide', configuration).mount();
