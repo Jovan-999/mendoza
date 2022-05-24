@@ -2,9 +2,9 @@ import marquee from 'https://cdn.jsdelivr.net/npm/vanilla-marquee/dist/vanilla-m
 
 const myScroller = new marquee(document.getElementById('marquee'), {
   css3easing: 'linear',
-  speed: 300,
+  speed: 180,
   gap: 50,
-  delayBeforeStart: 0,
+  delayBeforeStart: 1000,
   direction: 'left',
   duplicated: true,
   duration: 5000,
@@ -12,18 +12,18 @@ const myScroller = new marquee(document.getElementById('marquee'), {
 });
 const secondScroller = new marquee(document.getElementById('marquee-1'), {
   css3easing: 'linear',
-  speed: 300,
+  speed: 180,
   gap: 50,
-  delayBeforeStart: 0,
+  delayBeforeStart: 1000,
   direction: 'left',
   duplicated: true,
   duration: 5000,
 });
 const thirdScroller = new marquee(document.getElementById('marquee-2'), {
   css3easing: 'linear',
-  speed: 300,
+  speed: 180,
   gap: 50,
-  delayBeforeStart: 0,
+  delayBeforeStart: 1000,
   direction: 'right',
   duplicated: true,
   duration: 5000,
@@ -35,8 +35,11 @@ const configuration = {
   type: 'carousel',
   perView: 3,
   focusAt: 'center',
-  gap: 100,
+  gap: 80,
   breakpoints: {
+    1200: {
+      gap: 60,
+    },
     1023: {
       perView: 1,
     },

@@ -44,9 +44,8 @@ module.exports = {
         40: '40%',
       },
       height: {
-        60: '60px',
         140: '140px',
-        270: '270px',
+        285: '285px',
         609: '609px',
       },
       backgroundImage: {
