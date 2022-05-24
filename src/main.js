@@ -37,10 +37,7 @@ const configuration = {
   focusAt: 'center',
   gap: 80,
   breakpoints: {
-    1200: {
-      gap: 60,
-    },
-    1023: {
+    1279: {
       perView: 1,
     },
   },
