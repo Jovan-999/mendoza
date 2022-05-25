@@ -47,10 +47,10 @@ module.exports = {
         140: '140px',
         270: '270px',
         285: '285px',
+        415: '415px',
         609: '609px',
       },
       backgroundImage: {
-        'usa-map': 'url(/img/USA.svg);',
         'home-hero': 'url(/img/home-hero.jpg);',
         'home-hero-2': 'url(/img/home-hero-2.png);',
       },

@@ -9,12 +9,14 @@
   </head>
   <body>
     <div
-      class="max-w-1920 mx-auto flex justify-end lg:justify-center h-609 lg:h-full bg-cover bg-center bg-home-hero lg:bg-home-hero-2 bg-no-repeat font-helvetica"
+      class="max-w-1920 mx-auto flex justify-end lg:justify-center h-609 xl:h-415 lg:h-full bg-cover bg-center bg-home-hero lg:bg-home-hero-2 bg-no-repeat font-helvetica"
     >
       <div
-        class="bg-lightOrange h-fit max-w-xl md:max-w-sm z-50 mr-96 xl:mr-20 lg:mr-0 sm:mx-4 lg:my-12 sm:my-5 mt-7"
+        class="bg-lightOrange h-fit max-w-xl md:max-w-sm z-50 mr-96 2xl:mr-20 lg:mr-0 sm:mx-4 lg:my-12 sm:my-5 mt-7"
       >
-        <h2 class="text-center text-white text-4xl my-10 font-helvetica">
+        <h2
+          class="text-center text-white text-4xl my-10 xl:px-5 font-helvetica"
+        >
           ¿Cómo te podemos ayudar?
         </h2>
         <form class="flex flex-col px-12 xl:px-10 md:px-6 font-helvetica">
@@ -103,7 +105,7 @@
       </div>
     </div>
     <div class="max-w-1400 mx-auto">
-      <div class="text-center mt-16 md:mt-8">
+      <div class="text-center mt-16 xl:mt-44 md:mt-8">
         <h2
           class="text-lightOrange text-6xl lg:text-4xl sm:text-3xl font-secondary mb-3 font-libre"
         >
@@ -597,20 +599,20 @@
           </ul>
         </div>
         <div
-          class="glide__arrows hidden xl:flex xl:justify-center gap-2 mt-7"
-          data-glide-el="controls"
+          class="slider__bullets glide__bullets hidden xl:flex xl:justify-center gap-2 mt-7"
+          data-glide-el="controls[nav]"
         >
           <button
-            class="glide__arrow glide__arrow--left bg-gray-400 active:bg-darkOrange w-10 h-3 rounded-none"
-            data-glide-dir="<"
+            class="slider__bullet glide__bullet bg-gray-400 active:bg-darkOrange w-10 h-3 rounded-none"
+            data-glide-dir="=0"
           ></button>
           <button
-            class="glide__arrow glide__arrow--right bg-gray-400 active:bg-darkOrange w-10 h-3 rounded-none"
-            data-glide-dir=">"
+            class="slider__bullet glide__bullet bg-gray-400 active:bg-darkOrange w-10 h-3 rounded-none"
+            data-glide-dir="=1"
           ></button>
           <button
-            class="glide__arrow glide__arrow--right bg-gray-400 active:bg-darkOrange w-10 h-3 rounded-none"
-            data-glide-dir=">"
+            class="slider__bullet glide__bullet bg-gray-400 active:bg-darkOrange w-10 h-3 rounded-none"
+            data-glide-dir="=2"
           ></button>
         </div>
       </div>

@@ -1,5 +1,5 @@
 /*
-! tailwindcss v3.0.24 | MIT License | https://tailwindcss.com
+! tailwindcss v3.0.23 | MIT License | https://tailwindcss.com
 */
 
 /*
@@ -596,6 +596,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-top: 3.5rem;
 }
 
+.inline {
+  display: inline;
+}
+
 .flex {
   display: flex;
 }
@@ -978,8 +982,42 @@ Ensure the default browser behavior of the `hidden` attribute.
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.before\:content-\[\'Not_Hovering\'\]::before {
+  --tw-content: 'Not Hovering';
+  content: var(--tw-content);
+}
+
+.before\:content-\[\'Mandar\'\]::before {
+  --tw-content: 'Mandar';
+  content: var(--tw-content);
+}
+
+.last\:hidden:last-child {
+  display: none;
+}
+
+.hover\:inline:hover {
+  display: inline;
+}
+
+.hover\:flex:hover {
+  display: flex;
+}
+
+.hover\:hidden:hover {
+  display: none;
+}
+
 .hover\:w-72:hover {
   width: 18rem;
+}
+
+.hover\:items-center:hover {
+  align-items: center;
+}
+
+.hover\:justify-center:hover {
+  justify-content: center;
 }
 
 .hover\:bg-darkOrange:hover {
@@ -989,6 +1027,51 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .hover\:text-0:hover {
   font-size: 0;
+}
+
+.hover\:text-xl:hover {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.hover\:text-white:hover {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.hover\:before\:content-\[\'Hovering\'\]:hover::before {
+  --tw-content: 'Hovering';
+  content: var(--tw-content);
+}
+
+.hover\:before\:content-\[\'Hasfasdfdafdafdsafds\'\]:hover::before {
+  --tw-content: 'Hasfasdfdafdafdsafds';
+  content: var(--tw-content);
+}
+
+.hover\:before\:content-\[\'Checa_si_calificas\'\]:hover::before {
+  --tw-content: 'Checa si calificas';
+  content: var(--tw-content);
+}
+
+.hover\:before\:content-\[\'Checa_si_calificas_\&xrarr\;\'\]:hover::before {
+  --tw-content: 'Checa si calificas &xrarr;';
+  content: var(--tw-content);
+}
+
+.hover\:before\:content-\[\'Checa_si_calificas_-\>\'\]:hover::before {
+  --tw-content: 'Checa si calificas ->';
+  content: var(--tw-content);
+}
+
+.hover\:before\:content-\[\'Checa_si_calificas_\&xrarr\'\]:hover::before {
+  --tw-content: 'Checa si calificas &xrarr';
+  content: var(--tw-content);
+}
+
+.hover\:before\:content-\[\'Checa_si_calificas_-----\>\'\]:hover::before {
+  --tw-content: 'Checa si calificas ----->';
+  content: var(--tw-content);
 }
 
 .hover\:after\:flex:hover::after {
@@ -1023,6 +1106,24 @@ Ensure the default browser behavior of the `hidden` attribute.
   content: var(--tw-content);
 }
 
+.hover\:after\:content-\[\'_\2197\'\]:hover::after {
+  --tw-content: ' ↗';
+  content: var(--tw-content);
+}
+
+.hover\:after\:content-\[\'_\&xrarr\;\'\]:hover::after {
+  --tw-content: ' &xrarr;';
+  content: var(--tw-content);
+}
+
+.hover\:first\:hidden:first-child:hover {
+  display: none;
+}
+
+.hover\:last\:flex:last-child:hover {
+  display: flex;
+}
+
 .focus\:border-white:focus {
   --tw-border-opacity: 1;
   border-color: rgb(255 255 255 / var(--tw-border-opacity));
@@ -1053,6 +1154,10 @@ Ensure the default browser behavior of the `hidden` attribute.
     margin-right: 3rem;
   }
 
+  .\32xl\:mr-20 {
+    margin-right: 5rem;
+  }
+
   .\32xl\:px-6 {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
@@ -1064,16 +1169,8 @@ Ensure the default browser behavior of the `hidden` attribute.
     left: 33.333333%;
   }
 
-  .xl\:right-1\/4 {
-    right: 25%;
-  }
-
   .xl\:-right-14 {
     right: -3.5rem;
-  }
-
-  .xl\:top-5 {
-    top: 1.25rem;
   }
 
   .xl\:top-8 {
@@ -1084,32 +1181,9 @@ Ensure the default browser behavior of the `hidden` attribute.
     grid-column-start: 1;
   }
 
-  .xl\:mx-6 {
-    margin-left: 1.5rem;
-    margin-right: 1.5rem;
-  }
-
-  .xl\:mx-16 {
-    margin-left: 4rem;
-    margin-right: 4rem;
-  }
-
-  .xl\:mx-36 {
-    margin-left: 9rem;
-    margin-right: 9rem;
-  }
-
   .xl\:mx-32 {
     margin-left: 8rem;
     margin-right: 8rem;
-  }
-
-  .xl\:mr-0 {
-    margin-right: 0px;
-  }
-
-  .xl\:mr-20 {
-    margin-right: 5rem;
   }
 
   .xl\:mt-3 {
@@ -1120,8 +1194,24 @@ Ensure the default browser behavior of the `hidden` attribute.
     margin-top: 0.5rem;
   }
 
+  .xl\:mt-36 {
+    margin-top: 9rem;
+  }
+
+  .xl\:mt-40 {
+    margin-top: 10rem;
+  }
+
+  .xl\:mt-44 {
+    margin-top: 11rem;
+  }
+
   .xl\:flex {
     display: flex;
+  }
+
+  .xl\:h-415 {
+    height: 415px;
   }
 
   .xl\:h-270 {
@@ -1140,32 +1230,12 @@ Ensure the default browser behavior of the `hidden` attribute.
     width: 100%;
   }
 
-  .xl\:max-w-md {
-    max-width: 28rem;
-  }
-
   .xl\:max-w-275 {
     max-width: 275px;
   }
 
   .xl\:justify-center {
     justify-content: center;
-  }
-
-  .xl\:gap-16 {
-    gap: 4rem;
-  }
-
-  .xl\:gap-7 {
-    gap: 1.75rem;
-  }
-
-  .xl\:gap-5 {
-    gap: 1.25rem;
-  }
-
-  .xl\:gap-3 {
-    gap: 0.75rem;
   }
 
   .xl\:gap-1 {
@@ -1176,14 +1246,14 @@ Ensure the default browser behavior of the `hidden` attribute.
     overflow-wrap: break-word;
   }
 
-  .xl\:px-6 {
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
-  }
-
   .xl\:px-10 {
     padding-left: 2.5rem;
     padding-right: 2.5rem;
+  }
+
+  .xl\:px-6 {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
   }
 
   .xl\:px-3 {
@@ -1196,12 +1266,13 @@ Ensure the default browser behavior of the `hidden` attribute.
     padding-right: 4rem;
   }
 
-  .xl\:pt-12 {
-    padding-top: 3rem;
+  .xl\:px-5 {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
   }
 
-  .xl\:pt-3 {
-    padding-top: 0.75rem;
+  .xl\:pt-12 {
+    padding-top: 3rem;
   }
 
   .xl\:pt-5 {
@@ -1212,6 +1283,10 @@ Ensure the default browser behavior of the `hidden` attribute.
     padding-top: 1rem;
   }
 
+  .xl\:pt-3 {
+    padding-top: 0.75rem;
+  }
+
   .xl\:pl-16 {
     padding-left: 4rem;
   }
@@ -1220,38 +1295,21 @@ Ensure the default browser behavior of the `hidden` attribute.
     padding-right: 5rem;
   }
 
-  .xl\:text-base {
-    font-size: 1rem;
-    line-height: 1.5rem;
-  }
-
   .xl\:text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem;
   }
+
+  .xl\:text-base {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
 }
 
 @media (max-width: 1023px) {
-  .lg\:-right-14 {
-    right: -3.5rem;
-  }
-
-  .lg\:top-5 {
-    top: 1.25rem;
-  }
-
-  .lg\:col-start-1 {
-    grid-column-start: 1;
-  }
-
   .lg\:my-12 {
     margin-top: 3rem;
     margin-bottom: 3rem;
-  }
-
-  .lg\:mx-6 {
-    margin-left: 1.5rem;
-    margin-right: 1.5rem;
   }
 
   .lg\:mx-16 {
@@ -1259,8 +1317,8 @@ Ensure the default browser behavior of the `hidden` attribute.
     margin-right: 4rem;
   }
 
-  .lg\:mt-3 {
-    margin-top: 0.75rem;
+  .lg\:mr-0 {
+    margin-right: 0px;
   }
 
   .lg\:mt-14 {
@@ -1275,28 +1333,12 @@ Ensure the default browser behavior of the `hidden` attribute.
     margin-top: 1.25rem;
   }
 
-  .lg\:mt-2 {
-    margin-top: 0.5rem;
-  }
-
-  .lg\:mr-0 {
-    margin-right: 0px;
-  }
-
-  .lg\:flex {
-    display: flex;
-  }
-
   .lg\:h-full {
     height: 100%;
   }
 
   .lg\:h-28 {
     height: 7rem;
-  }
-
-  .lg\:h-270 {
-    height: 270px;
   }
 
   .lg\:h-14 {
@@ -1307,28 +1349,12 @@ Ensure the default browser behavior of the `hidden` attribute.
     height: 9rem;
   }
 
-  .lg\:h-48 {
-    height: 12rem;
-  }
-
-  .lg\:h-44 {
-    height: 11rem;
-  }
-
   .lg\:w-14 {
     width: 3.5rem;
   }
 
   .lg\:w-36 {
     width: 9rem;
-  }
-
-  .lg\:max-w-sm {
-    max-width: 24rem;
-  }
-
-  .lg\:max-w-275 {
-    max-width: 275px;
   }
 
   .lg\:grid-cols-1 {
@@ -1339,6 +1365,10 @@ Ensure the default browser behavior of the `hidden` attribute.
     justify-content: center;
   }
 
+  .lg\:gap-16 {
+    gap: 4rem;
+  }
+
   .lg\:gap-7 {
     gap: 1.75rem;
   }
@@ -1347,51 +1377,8 @@ Ensure the default browser behavior of the `hidden` attribute.
     gap: 1.5rem;
   }
 
-  .lg\:gap-16 {
-    gap: 4rem;
-  }
-
   .lg\:bg-home-hero-2 {
     background-image: url(/img/home-hero-2.png);;
-  }
-
-  .lg\:px-10 {
-    padding-left: 2.5rem;
-    padding-right: 2.5rem;
-  }
-
-  .lg\:px-3 {
-    padding-left: 0.75rem;
-    padding-right: 0.75rem;
-  }
-
-  .lg\:px-16 {
-    padding-left: 4rem;
-    padding-right: 4rem;
-  }
-
-  .lg\:pt-12 {
-    padding-top: 3rem;
-  }
-
-  .lg\:pt-5 {
-    padding-top: 1.25rem;
-  }
-
-  .lg\:pt-4 {
-    padding-top: 1rem;
-  }
-
-  .lg\:pt-3 {
-    padding-top: 0.75rem;
-  }
-
-  .lg\:pl-16 {
-    padding-left: 4rem;
-  }
-
-  .lg\:pr-20 {
-    padding-right: 5rem;
   }
 
   .lg\:text-4xl {
@@ -1402,11 +1389,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   .lg\:text-3xl {
     font-size: 1.875rem;
     line-height: 2.25rem;
-  }
-
-  .lg\:text-xl {
-    font-size: 1.25rem;
-    line-height: 1.75rem;
   }
 }
 
@@ -1437,16 +1419,12 @@ Ensure the default browser behavior of the `hidden` attribute.
     margin-top: 0.5rem;
   }
 
-  .md\:mt-52 {
-    margin-top: 13rem;
+  .md\:mt-64 {
+    margin-top: 16rem;
   }
 
   .md\:mt-7 {
     margin-top: 1.75rem;
-  }
-
-  .md\:mt-64 {
-    margin-top: 16rem;
   }
 
   .md\:max-w-sm {
