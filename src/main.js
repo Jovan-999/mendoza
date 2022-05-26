@@ -35,11 +35,12 @@ const configuration = {
   type: 'carousel',
   perView: 3,
   focusAt: 'center',
-  gap: 80,
+  gap: 100,
   autoplay: false,
   breakpoints: {
-    1279: {
+    1280: {
       perView: 1,
+      gap: 80,
     },
   },
 };
