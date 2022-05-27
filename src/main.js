@@ -34,9 +34,9 @@ const thirdScroller = new marquee(document.getElementById('marquee-2'), {
 const configuration = {
   type: 'carousel',
   perView: 3,
-  focusAt: 'center',
   gap: 100,
   autoplay: false,
+  draggable: true,
   breakpoints: {
     1280: {
       perView: 1,
