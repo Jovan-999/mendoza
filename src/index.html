@@ -11,64 +11,108 @@
     <div
       class="max-w-1920 mx-auto flex justify-end lg:justify-center h-609 xl:h-415 lg:h-full bg-cover bg-center bg-home-hero lg:bg-home-hero-2 bg-no-repeat font-helvetica"
     >
-      <div
-        class="bg-lightOrange h-fit max-w-xl md:max-w-sm z-50 mr-96 2xl:mr-20 lg:mr-0 sm:mx-4 lg:my-12 sm:my-5 mt-7"
-      >
-        <h2
-          class="text-center text-white text-4xl my-10 xl:px-5 font-helvetica"
-        >
-          ¿Cómo te podemos ayudar?
-        </h2>
-        <form class="flex flex-col px-12 xl:px-10 md:px-6 font-helvetica">
-          <label class="text-white text-base mb-3" for="name"
-            ><strong>Nombre</strong></label
+      <div class="contact-page__form">
+        <div role="form" class="wpcf7" id="wpcf7-f25-o1" lang="en-US" dir="ltr">
+          <div class="screen-reader-response">
+            <p role="status" aria-live="polite" aria-atomic="true"></p>
+            <ul></ul>
+          </div>
+          <form
+            action="/?page_id=7#wpcf7-f25-o1"
+            method="post"
+            class="wpcf7-form init"
+            novalidate="novalidate"
+            data-status="init"
           >
-          <input
-            class="focus:text-white w-440 xl:w-full h-12 py-4 pl-5 mb-3 bg-lightOrange border-grayLight border-2 rounded-md focus:outline-none focus:border-white placeholder:text-white"
-            type="text"
-            id="nombre"
-            name="nombre"
-            placeholder="José Martinez"
-          />
-
-          <label class="text-white text-base mb-3" for="email"
-            ><strong>Email</strong></label
-          >
-          <input
-            class="focus:text-white w-440 xl:w-full h-12 py-4 pl-5 mb-3 bg-lightOrange border-grayLight border-2 rounded-md focus:outline-none focus:border-white placeholder:text-white"
-            type="text"
-            id="email"
-            name="email"
-            placeholder="Jose@gmail.com"
-          />
-
-          <label class="text-white text-base mb-3" for="number"
-            ><strong>Número de teléfono</strong></label
-          >
-          <input
-            class="focus:text-white w-440 xl:w-full h-12 py-4 pl-5 mb-3 bg-lightOrange border-grayLight border-2 rounded-md focus:outline-none focus:border-white placeholder:text-white"
-            type="text"
-            id="number"
-            name="number"
-            placeholder="(555) 555-5555"
-          />
-
-          <label class="text-white text-base mb-3" for="subject"
-            ><strong>Mensaje</strong></label
-          >
-          <textarea
-            class="focus:text-white w-440 xl:w-full h-140 lg:h-28 pt-4 pl-5 bg-lightOrange border-grayLight border-2 rounded-md focus:outline-none focus:border-white placeholder:text-white"
-            id="subject"
-            name="subject"
-            placeholder="Busco un abogado porque…"
-          ></textarea>
-        </form>
-        <div class="flex items-center justify-center my-6">
-          <a
-            class="bg-white text-lightOrange rounded-full w-56 h-16 text-xl flex items-center justify-center hover:after:flex hover:after:items-center hover:after:justify-center hover:text-0 font-helvetica hover:bg-darkOrange hover:after:text-white hover:w-72 hover:after:text-xl hover:after:content-[attr(data-hover)]"
-            data-hover="Checa si calificas &xrarr;"
-            ><strong>Mandar &nbsp; &xrarr;</strong>
-          </a>
+            <div style="display: none">
+              <input type="hidden" name="_wpcf7" value="25" />
+              <input type="hidden" name="_wpcf7_version" value="5.5.6.1" />
+              <input type="hidden" name="_wpcf7_locale" value="en_US" />
+              <input
+                type="hidden"
+                name="_wpcf7_unit_tag"
+                value="wpcf7-f25-o1"
+              />
+              <input type="hidden" name="_wpcf7_container_post" value="0" />
+              <input type="hidden" name="_wpcf7_posted_data_hash" value="" />
+            </div>
+            <h2
+              class="text-center text-white text-4xl mt-6 mb-10 xl:mt-3 xl:mb-2 xl:px-5 font-helvetica"
+            >
+              ¿Cómo te podemos ayudar?
+            </h2>
+            <p>
+              <label>
+                Nombre<br />
+                <span class="wpcf7-form-control-wrap text"
+                  ><input
+                    type="text"
+                    name="text"
+                    value=""
+                    size="40"
+                    class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required"
+                    aria-required="true"
+                    aria-invalid="false"
+                    placeholder="Jose Martinez"
+                /></span>
+              </label>
+            </p>
+            <p>
+              <label>
+                Email<br />
+                <span class="wpcf7-form-control-wrap email"
+                  ><input
+                    type="email"
+                    name="email"
+                    value=""
+                    size="40"
+                    class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email"
+                    aria-required="true"
+                    aria-invalid="false"
+                    placeholder="Jose@gmail.com"
+                /></span>
+              </label>
+            </p>
+            <p>
+              <label>
+                Numero de telefono<br />
+                <span class="wpcf7-form-control-wrap tel"
+                  ><input
+                    type="tel"
+                    name="tel"
+                    value=""
+                    size="40"
+                    class="wpcf7-form-control wpcf7-text wpcf7-tel wpcf7-validates-as-required wpcf7-validates-as-tel"
+                    aria-required="true"
+                    aria-invalid="false"
+                    placeholder="(555) 555-5555" /></span
+              ></label>
+            </p>
+            <p>
+              <label>
+                Mensaje<br />
+                <span class="wpcf7-form-control-wrap textarea">
+                  <textarea
+                    name="textarea"
+                    cols="40"
+                    rows="10"
+                    class="wpcf7-form-control wpcf7-textarea wpcf7-validates-as-required"
+                    aria-required="true"
+                    aria-invalid="false"
+                    placeholder="Busco un abogado porque..."
+                  ></textarea>
+                </span>
+              </label>
+            </p>
+            <p>
+              <input
+                type="submit"
+                value="Mandar &xrarr;"
+                class="wpcf7-form-control has-spinner wpcf7-submit"
+              /><span class="wpcf7-spinner"></span>
+            </p>
+            <div class="wpcf7-response-output" aria-hidden="true"></div>
+          </form>
         </div>
       </div>
     </div>

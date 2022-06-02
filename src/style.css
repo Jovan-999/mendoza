@@ -5,3 +5,35 @@
 .glide__bullet--active {
   background-color: #cc4a1a;
 }
+
+@layer components {
+  .contact-page__form {
+    @apply bg-lightOrange h-fit max-w-xl xl:max-w-460 md:max-w-sm z-50 mr-96 2xl:mr-20 lg:mr-0 sm:mx-4 lg:my-12 sm:my-5 mt-7 grid justify-center;
+  }
+
+  .contact-page__form form {
+    @apply flex flex-col px-12 xl:px-12 md:px-6 font-helvetica w-full;
+  }
+
+  .contact-page__form label {
+    @apply text-white text-base font-bold;
+  }
+
+  .contact-page__form input[type='text'],
+  .contact-page__form input[type='email'],
+  .contact-page__form input[type='tel'] {
+    @apply focus:text-white w-440 xl:w-full h-12 py-4 pl-5 mb-3 mt-3 bg-lightOrange border-grayLight border-2 rounded-md focus:outline-none focus:border-white placeholder:text-white;
+  }
+
+  .contact-page__form textarea {
+    @apply focus:text-white w-440 xl:w-full h-140 lg:h-28 pt-4 pl-5 mt-3 bg-lightOrange border-grayLight border-2 rounded-md focus:outline-none focus:border-white placeholder:text-white;
+  }
+
+  .contact-page__form p {
+    @apply flex justify-center items-center gap-0;
+  }
+
+  .contact-page__form input[type='submit'] {
+    @apply my-6 xl:mt-6 xl:mb-8 md:my-5 bg-white text-lightOrange rounded-full w-56 h-16 xl:h-12 text-xl flex items-center justify-center hover:bg-darkOrange hover:text-white;
+  }
+}
